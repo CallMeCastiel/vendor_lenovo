@@ -34,34 +34,14 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lenovo/A6020/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/lenovo/A6020/proprietary/vendor/bin/vm_bms:system/vendor/bin/vm_bms \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb:system/vendor/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Handset_cal.acdb:system/vendor/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Handset_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Hdmi_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Headset_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Speaker_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Bluetooth_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_General_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_General_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Global_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Global_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Handset_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Handset_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Hdmi_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Headset_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Speaker_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/QRD_Bluetooth_cal.acdb \
+    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD_General_cal.acdb:system/vendor/etc/acdbdata/QRD_General_cal.acdb \
+    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD_Global_cal.acdb:system/vendor/etc/acdbdata/QRD_Global_cal.acdb \
+    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD_Handset_cal.acdb:system/vendor/etc/acdbdata/QRD_Handset_cal.acdb \
+    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD_Hdmi_cal.acdb \
+    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD_Headset_cal.acdb \
+    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD_Speaker_cal.acdb \
+    vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/workspaceFile.qwsp:system/vendor/etc/acdbdata/workspaceFile.qwsp \
     vendor/lenovo/A6020/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/lenovo/A6020/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/lenovo/A6020/proprietary/vendor/etc/data/qmi_config.xml:system/vendor/etc/data/qmi_config.xml \
@@ -329,7 +309,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
