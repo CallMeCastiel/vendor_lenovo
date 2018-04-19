@@ -139,19 +139,12 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/lenovo/A6020/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     vendor/lenovo/A6020/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
-    vendor/lenovo/A6020/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib/egl/libESXEGL_adreno.so:system/vendor/lib/egl/libESXEGL_adreno.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib/egl/libESXGLESv1_CM_adreno.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib/egl/libESXGLESv2_adreno.so:system/vendor/lib/egl/libESXGLESv2_adreno.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:system/vendor/lib/hw/sound_trigger.primary.msm8916.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/hw/wbc_hal.default.so:system/vendor/lib/hw/wbc_hal.default.so \
@@ -176,6 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/eglSubDriverAndroid.so:system/vendor/lib/eglSubDriverAndroid.so \ 
     vendor/lenovo/A6020/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
@@ -184,6 +178,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libcamerahandler_jni.so:system/vendor/lib/libcamerahandler_jni.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libGLESv1_CM_adreno.so:system/vendor/lib/libGLESv1_CM_adreno.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libGLESv2_adreno.so:system/vendor/lib/libGLESv2_adreno.so \    
     vendor/lenovo/A6020/proprietary/vendor/lib/libchromatix_hi545_avc_common.so:system/vendor/lib/libchromatix_hi545_avc_common.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libchromatix_hi545_avc_default_video.so:system/vendor/lib/libchromatix_hi545_avc_default_video.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libchromatix_hi545_avc_hfr_120fps.so:system/vendor/lib/libchromatix_hi545_avc_hfr_120fps.so \
@@ -238,6 +235,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
@@ -330,19 +328,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libESXEGL_adreno.so:system/vendor/lib64/egl/libESXEGL_adreno.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib64/egl/libESXGLESv1_CM_adreno.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libESXGLESv2_adreno.so:system/vendor/lib64/egl/libESXGLESv2_adreno.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libRBEGL_adreno.so:system/vendor/lib64/egl/libRBEGL_adreno.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib64/egl/libRBGLESv1_CM_adreno.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \ 
+    vendor/lenovo/A6020/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \  
     vendor/lenovo/A6020/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/hw/wbc_hal.default.so:system/vendor/lib64/hw/wbc_hal.default.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
@@ -375,15 +367,22 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \   
+    vendor/lenovo/A6020/proprietary/vendor/lib64/eglSubDriverAndroid.so:system/vendor/lib64/eglSubDriverAndroid.so \    
     vendor/lenovo/A6020/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libGLESv1_CM_adreno.so:system/vendor/lib64/libGLESv1_CM_adreno.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libGLESv2_adreno.so:system/vendor/lib64/libGLESv2_adreno.so \  
     vendor/lenovo/A6020/proprietary/vendor/lib64/libcalmodule_akm.so:system/vendor/lib64/libcalmodule_akm.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libcalmodule_common.so:system/vendor/lib64/libcalmodule_common.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libcalmodule_gyroscope.so:system/vendor/lib64/libcalmodule_gyroscope.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libcalmodule_senodia.so:system/vendor/lib64/libcalmodule_senodia.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libGLESv1_CM_adreno.so:system/vendor/lib64/libGLESv1_CM_adreno.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libGLESv2_adreno.so:system/vendor/lib64/libGLESv2_adreno.so \ 
     vendor/lenovo/A6020/proprietary/vendor/lib64/libchromatix_hi545_avc_liveshot.so:system/vendor/lib64/libchromatix_hi545_avc_liveshot.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libchromatix_hi545_liveshot.so:system/vendor/lib64/libchromatix_hi545_liveshot.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libchromatix_ov13850_default_video.so:system/vendor/lib64/libchromatix_ov13850_default_video.so \
@@ -411,6 +410,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \    
     vendor/lenovo/A6020/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
