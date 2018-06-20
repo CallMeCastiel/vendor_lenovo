@@ -63,9 +63,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/lenovo/A6020/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/lenovo/A6020/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
-    vendor/lenovo/A6020/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
-    vendor/lenovo/A6020/proprietary/vendor/etc/data/qmi_config.xml:system/vendor/etc/data/qmi_config.xml \
+    vendor/lenovo/A6020/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/lenovo/A6020/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/lenovo/A6020/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/lenovo/A6020/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/lenovo/A6020/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/lenovo/A6020/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
@@ -213,8 +213,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/libchromatix_ov13850_qtech_preview.so:system/vendor/lib/libchromatix_ov13850_qtech_preview.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libchromatix_ov13850_qtech_snapshot.so:system/vendor/lib/libchromatix_ov13850_qtech_snapshot.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libchromatix_ov13850_snapshot.so:system/vendor/lib/libchromatix_ov13850_snapshot.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
@@ -236,6 +239,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
@@ -308,6 +312,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
@@ -399,8 +404,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libchromatix_hi545_liveshot.so:system/vendor/lib64/libchromatix_hi545_liveshot.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libchromatix_ov13850_default_video.so:system/vendor/lib64/libchromatix_ov13850_default_video.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libchromatix_ov13850_qtech_default_video.so:system/vendor/lib64/libchromatix_ov13850_qtech_default_video.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libDivxDrm.so:system/vendor/lib64/libDivxDrm.so \
@@ -421,6 +429,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
@@ -448,6 +457,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
